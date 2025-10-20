@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>IAPack.Package</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Burfin Thomas</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.16.0" />
+    <PackageReference Include="TensorFlow.Keras" Version="0.15.0" />
+    <PackageReference Include="TensorFlow.NET" Version="0.150.0" />
+  </ItemGroup>
+
+</Project>
+
