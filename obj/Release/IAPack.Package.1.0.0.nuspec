@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IAPack.Package</id>
+    <version>1.0.0</version>
+    <authors>Burfin Thomas</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="e7d86502845d93f5e81b0c04fe43a01f911c364c" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.ML" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="SciSharp.TensorFlow.Redist" version="2.16.0" exclude="Build,Analyzers" />
+        <dependency id="TensorFlow.Keras" version="0.15.0" exclude="Build,Analyzers" />
+        <dependency id="TensorFlow.NET" version="0.150.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\bin\Release\net8.0\IAPack.Package.dll" target="lib\net8.0\IAPack.Package.dll" />
+  </files>
+</package>

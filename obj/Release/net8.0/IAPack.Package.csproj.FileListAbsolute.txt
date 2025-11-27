@@ -1,0 +1,13 @@
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\bin\Release\net8.0\IAPack.Package.deps.json
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\bin\Release\net8.0\IAPack.Package.dll
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\bin\Release\net8.0\IAPack.Package.pdb
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\IAPack.Package.csproj.AssemblyReference.cache
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\IAPack.Package.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\IAPack.Package.AssemblyInfoInputs.cache
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\IAPack.Package.AssemblyInfo.cs
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\IAPack.Package.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\IAPack.Package.sourcelink.json
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\IAPack.Package.dll
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\refint\IAPack.Package.dll
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\IAPack.Package.pdb
+C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\obj\Release\net8.0\ref\IAPack.Package.dll
