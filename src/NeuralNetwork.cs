@@ -71,4 +71,9 @@ public class NeuralNetwork
 
         _actions[actionIndex]?.Invoke();
     }
+
+    public float[] Predict(Dictionary<string, object> parameters)
+    {
+        return _backend.Predict(ConvertToFloatParameters(parameters));
+    }
 }

@@ -17,6 +17,7 @@
           "IAPack.Package.dll": {}
         }
       },
+      "Fody/6.7.0": {},
       "Google.Protobuf/3.21.12": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
@@ -109,6 +110,9 @@
         }
       },
       "MethodBoundaryAspect.Fody/2.0.149": {
+        "dependencies": {
+          "Fody": "6.7.0"
+        },
         "runtime": {
           "lib/netstandard2.1/MethodBoundaryAspect.dll": {
             "assemblyVersion": "2.0.149.0",
@@ -130,9 +134,13 @@
           "Microsoft.ML.CpuMath": "5.0.0",
           "Microsoft.ML.DataView": "5.0.0",
           "Newtonsoft.Json": "13.0.3",
+          "System.Buffers": "4.6.1",
           "System.CodeDom": "9.0.4",
           "System.Collections.Immutable": "9.0.4",
+          "System.Memory": "4.6.3",
           "System.Numerics.Tensors": "9.0.4",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2",
           "System.Threading.Channels": "9.0.4"
         },
         "runtime": {
@@ -242,7 +250,10 @@
       },
       "Microsoft.ML.DataView/5.0.0": {
         "dependencies": {
-          "System.Collections.Immutable": "9.0.4"
+          "System.Buffers": "4.6.1",
+          "System.Collections.Immutable": "9.0.4",
+          "System.Memory": "4.6.3",
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
@@ -287,6 +298,9 @@
         }
       },
       "Razorvine.Pickle/1.4.0": {
+        "dependencies": {
+          "System.Memory": "4.6.3"
+        },
         "runtime": {
           "lib/netstandard2.0/Razorvine.Pickle.dll": {
             "assemblyVersion": "1.4.0.0",
@@ -340,6 +354,7 @@
           }
         }
       },
+      "System.Buffers/4.6.1": {},
       "System.CodeDom/9.0.4": {
         "runtime": {
           "lib/net8.0/System.CodeDom.dll": {
@@ -356,6 +371,7 @@
           }
         }
       },
+      "System.Memory/4.6.3": {},
       "System.Numerics.Tensors/9.0.4": {
         "runtime": {
           "lib/net8.0/System.Numerics.Tensors.dll": {
@@ -364,6 +380,7 @@
           }
         }
       },
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
       "System.Resources.Extensions/7.0.0": {
         "runtime": {
           "lib/net7.0/System.Resources.Extensions.dll": {
@@ -372,6 +389,7 @@
           }
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/6.1.2": {},
       "System.Threading.Channels/9.0.4": {
         "runtime": {
           "lib/net8.0/System.Threading.Channels.dll": {
@@ -417,6 +435,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Fody/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-apsA8Hp9sAuOVmn9byPnCuqiQEjhAApqwNfEG+Gu0OyHUZfjHhLwvNQnAaONDdHWDXP/pBgpGXuscVwfEym8zQ==",
+      "path": "fody/6.7.0",
+      "hashPath": "fody.6.7.0.nupkg.sha512"
     },
     "Google.Protobuf/3.21.12": {
       "type": "package",
@@ -537,6 +562,13 @@
       "path": "sharpziplib/1.4.2",
       "hashPath": "sharpziplib.1.4.2.nupkg.sha512"
     },
+    "System.Buffers/4.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N8GXpmiLMtljq7gwvyS+1QvKT/W2J8sNAvx+HVg4NGmsG/H+2k/y9QI23auLJRterrzCiDH+IWAw4V/GPwsMlw==",
+      "path": "system.buffers/4.6.1",
+      "hashPath": "system.buffers.4.6.1.nupkg.sha512"
+    },
     "System.CodeDom/9.0.4": {
       "type": "package",
       "serviceable": true,
@@ -551,6 +583,13 @@
       "path": "system.collections.immutable/9.0.4",
       "hashPath": "system.collections.immutable.9.0.4.nupkg.sha512"
     },
+    "System.Memory/4.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qdcDOgnFZY40+Q9876JUHnlHu7bosOHX8XISRoH94fwk6hgaeQGSgfZd8srWRZNt5bV9ZW2TljcegDNxsf+96A==",
+      "path": "system.memory/4.6.3",
+      "hashPath": "system.memory.4.6.3.nupkg.sha512"
+    },
     "System.Numerics.Tensors/9.0.4": {
       "type": "package",
       "serviceable": true,
@@ -558,12 +597,26 @@
       "path": "system.numerics.tensors/9.0.4",
       "hashPath": "system.numerics.tensors.9.0.4.nupkg.sha512"
     },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
     "System.Resources.Extensions/7.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-65ufm9ABXvxRkQ//hMcUDrQXbGWkC7z0WWZAvHlQ6Qv+JmrIwHH1lmX8aXlNlXpIrT9KxDpuZPqJTVqqwzMD8Q==",
       "path": "system.resources.extensions/7.0.0",
       "hashPath": "system.resources.extensions.7.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2hBr6zdbIBTDE3EhK7NSVNdX58uTK6iHW/P/Axmm9sl1xoGSLqDvMtpecn226TNwHByFokYwJmt/aQQNlO5CRw==",
+      "path": "system.runtime.compilerservices.unsafe/6.1.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512"
     },
     "System.Threading.Channels/9.0.4": {
       "type": "package",

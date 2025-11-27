@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>Burfin Thomas</authors>
     <description>Package Description</description>
-    <repository type="git" commit="e7d86502845d93f5e81b0c04fe43a01f911c364c" />
+    <repository type="git" commit="c03713c60ecbd025a75f92a699adb918a5ff9949" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="Microsoft.ML" version="5.0.0" exclude="Build,Analyzers" />
@@ -16,6 +16,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\thoma\Desktop\ProjetM2\IAPack.Package\bin\Release\net8.0\IAPack.Package.dll" target="lib\net8.0\IAPack.Package.dll" />
+    <file src="D:\ProjetM2\IAPack.Package\bin\Release\net8.0\IAPack.Package.dll" target="lib\net8.0\IAPack.Package.dll" />
   </files>
 </package>

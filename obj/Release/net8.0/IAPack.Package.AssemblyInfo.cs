@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Burfin Thomas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7d86502845d93f5e81b0c04fe43a01f911c364c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c03713c60ecbd025a75f92a699adb918a5ff9949")]
 [assembly: System.Reflection.AssemblyProductAttribute("IAPack.Package")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IAPack.Package")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

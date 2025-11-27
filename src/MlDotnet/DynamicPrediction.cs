@@ -4,6 +4,6 @@ namespace  IAPack.Package.MlDotnet;
 
 public class DynamicPrediction
 {
-    [ColumnName("output")]
-    public float[] Prediction {get; set;}
+    [ColumnName("Score")]
+    public float Predicted { get; set; }
 }
