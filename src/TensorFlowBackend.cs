@@ -1,13 +1,7 @@
-
-
-using System;
-using System.Collections.Generic;
 using Tensorflow;
-using Tensorflow.NumPy;
 using static Tensorflow.Binding;
 
 namespace IAPack.Package;
-
 
 public class TensorFlowBackend : INeuralNetworkBackend
 {

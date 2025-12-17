@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetM2\\IAPack.Package\\IAPack.Package.csproj": {}
+    "C:\\Users\\thoma\\Desktop\\ProjetM2\\IAPack.Package\\IAPack.Package.csproj": {}
   },
   "projects": {
-    "D:\\ProjetM2\\IAPack.Package\\IAPack.Package.csproj": {
+    "C:\\Users\\thoma\\Desktop\\ProjetM2\\IAPack.Package\\IAPack.Package.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetM2\\IAPack.Package\\IAPack.Package.csproj",
+        "projectUniqueName": "C:\\Users\\thoma\\Desktop\\ProjetM2\\IAPack.Package\\IAPack.Package.csproj",
         "projectName": "IAPack.Package",
-        "projectPath": "D:\\ProjetM2\\IAPack.Package\\IAPack.Package.csproj",
+        "projectPath": "C:\\Users\\thoma\\Desktop\\ProjetM2\\IAPack.Package\\IAPack.Package.csproj",
         "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetM2\\IAPack.Package\\obj\\",
+        "outputPath": "C:\\Users\\thoma\\Desktop\\ProjetM2\\IAPack.Package\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +39,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -76,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
